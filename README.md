@@ -10,19 +10,17 @@ Código empleado para la realización del reto de la fase 2 propuesto. El cual s
 ## Cuestión planteada
 Una parte del agua disponible en nuestro país no está eficientemente gestionada en la generación de energía en centrales hidroeléctricas, cuando el excedente de producción supera la necesidad puntual. Tú y tu equipo... ¿podéis ayudarnos a resolver este conflicto?.
 
+## Prerrequisitos
+
+- Tener instalado Docker (CLI)
+
 ## Compilación y ejecución
 
-### Prerrequisitos
+- Creación de la imagen: <code>docker build -t cdsfase2docker .</code>
 
+- Ejecución del contenedor: <code>docker run -p 8888:8888 cdsfase2docker</code>
 
-
-### Ejecución
-
-
-
-## Posibles mejoras
-
-
+- Ejecución de Jupyter Notebook: en cualquier navegador, abrir el enlace que se muestra en la terminal con formato <code>http://127.0.0.1:8888/lab?token='token-mostrado'</code>
 ## Hecho con
 
 Jupyter Notebooks, Python, así como diversas librerías de este lenguaje.
